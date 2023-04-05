@@ -1,56 +1,36 @@
 import 'dotenv/config.js'
 import '../../config/database.js'
 import { users } from './users.js'
-import { authors } from './authors.js'
-import { companies } from './companies.js'
 import { categories } from './categories.js'
-import { mangas_v1 } from './mangas_v1.js'
+import { products_v1 } from './products.js'
 import { User } from '../User.js'
-import { Author } from '../Author.js'
-import { Company } from '../Company.js'
+import { Article } from '../Article.js'
 import { Category } from '../Category.js'
-import { Manga } from '../Manga.js'
-import { Chapter } from '../Chapter.js'
+import { Product } from '../Product.js'
 
-let newCategories = async(categories) => await Category.insertMany(categories)
 
-let newUsers = async(users) => await User.insertMany(users)
+let newCategories = async (categories) => await Category.insertMany(categories)
 
-let newRoles = async(rol1,rol2) => {
-    for (let author of rol1) {
-        let user = await User.findOne({ mail: author.user_id })
-        author.user_id = user._id
-        await Author.create(author)
-    }
-    for (let company of rol2) {
-        let user = await User.findOne({ mail: company.user_id })
-        company.user_id = user._id
-        await Company.create(company)
-    }
-}
+let newUsers = async (users) => await User.insertMany(users)
 
-let newMangas = async(mangas) => {
-    for (let manga of mangas) {
-        let category = await Category.findOne({ name: manga.category_id })
-        let author = await Author.findOne({ name: manga.author_id })
-        let company = await Company.findOne({ name: manga.company_id })
-        manga.category_id = category._id
-        manga.author_id = author._id
-        company ? (manga.company_id = company._id) : null
-        let newManga = await Manga.create(manga)
-        for (let chapter of manga.chapters) {
-            chapter.manga_id = newManga._id
-            chapter.cover_photo = chapter.pages[0]
-            await Chapter.create(chapter)
+let newProducts = async (products) => {
+    for (let product of products) {
+        let category = await Category.findOne({ name: product.category_id })
+        product.category_id = category._id
+        let newProduct = await Product.create(product)
+        for (let article of product.article) {
+            article.product_id = newProduct._id
+            // article.cover_photo = article.photo[0]
+            await Article.create(article)
         }
     }
 }
 
+
 let data = async () => {
     await newCategories(categories)
     await newUsers(users)
-    await newRoles(authors,companies)
-    await newMangas(mangas_v1)
+    await newProducts(products_v1)
     console.log('done!')
 }
 

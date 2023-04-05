@@ -1,15 +1,18 @@
 export let categories = [
     {
-        name: "shonen",
-        detail: "Shonen manga are characterized by having a lot of action and often humorous situations with male protagonists."
+        name: "mates",
+        detail: "Containers to prepare the mate infusion."
     },{
-        name: "comic",
-        detail: "Marvel, DC and anothers comics"
+        name: "thermos",
+        detail: "Thermos to keep the water at the right temperature."
     },{
-        name: "shojo",
-        detail: "It is aimed especially at the adolescent female audience, being mostly starring a girl."
+        name: "strawbulbs",
+        detail: "metal utensils used in the preparation and consumption of the drink known as mate "
     },{
-        name: "seinen",
-        detail: "Japanese seinen tells stories with a mature tone."
+        name: "accessories",
+        detail: "Accessories to prepare mate. "
+    },{
+        name: "mate carriers",
+        detail: "Accessories to transport mate. "
     }
 ]
