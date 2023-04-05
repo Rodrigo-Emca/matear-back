@@ -1,5 +1,5 @@
 import express from 'express'
-import passport from '../middlewares/chapters/passport.js'
+import passport from '../middlewares/passport.js'
 import donations from '../controllers/donations/create.js'
 
 let router = express.Router()
