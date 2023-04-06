@@ -16,5 +16,6 @@ const { update } = updateProduct
 router.post('/', passport.authenticate("jwt", { session:false }), validator(schemaProducts), create)
 
 router.put("/:id", passport.authenticate("jwt", { session:false }), validator(schemaUpdate), update)
+// router.put("/:id", passport.authenticate("jwt", { session:false }), validator(schemaUpdate), destroy)
 
 export default router
