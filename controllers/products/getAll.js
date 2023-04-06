@@ -29,7 +29,7 @@ const controller = {
 
         try {
             let all = await Product.find(consultas)
-            .select('title category_id cover_photo')
+            .select('title category_id cover_photo description price stock')
             .sort({ title: 1})  
             .skip( pagination.page > 0 ? (pagination.page-1)*pagination.limit : 0 )
             .limit( pagination.limit > 0 ? pagination.limit : 0 )
