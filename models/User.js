@@ -1,10 +1,13 @@
 import mongoose from 'mongoose'
 
 const schema = new mongoose.Schema(
-    {
+    {   
+        name: {type: String, require: true},
         mail: { type: String, require: true },
         password: { type: String, require: true },
-        photo: { type: String, require: true },
+        country: {type: String, require: true},
+        address: {type: String, require: true},
+        mailing_address: {type: String, require: true},
         is_online: { type: Boolean, require: true },
         is_admin: { type: Boolean, require: true },
         is_author: { type: Boolean, require: false },
