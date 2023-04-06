@@ -2,7 +2,7 @@ import express from 'express'
 import userRouter from './users.js'
 import authorRouter from './authors.js'
 import categoriesRouter from './categories.js'
-import donationsRouter from './donations.js'
+// import donationsRouter from './donations.js'
 import productsRouter from './products.js'
 
 let router = express.Router();
@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
 router.use('/auth',userRouter)
 router.use('/authors',authorRouter)
 router.use('/categories',categoriesRouter)
-router.use('/donate',donationsRouter)
+// router.use('/donate',donationsRouter)
 router.use('/products', productsRouter)
 
 export default router
