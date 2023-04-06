@@ -5,17 +5,17 @@ import schemaUpdate from '../schemas/productsEdit.js'
 import passport from '../middlewares/passport.js'
 import validator from '../middlewares/validator.js'
 import updateProduct from '../controllers/products/update.js'
-// import deleteProduct from '../controllers/products/destroy.js'
+import deleteProduct from '../controllers/products/destroy.js'
 
 let router = express.Router()
 
 const {create} = products
 const { update } = updateProduct
-// const { destroy } = deleteProduct
+const { destroy } = deleteProduct
 
 router.post('/', passport.authenticate("jwt", { session:false }), validator(schemaProducts), create)
 
 router.put("/:id", passport.authenticate("jwt", { session:false }), validator(schemaUpdate), update)
-// router.put("/:id", passport.authenticate("jwt", { session:false }), validator(schemaUpdate), destroy)
+router.delete("/:id", passport.authenticate("jwt", { session:false }), destroy)
 
 export default router
