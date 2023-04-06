@@ -38,19 +38,32 @@ const schema = Joi.object({
                 'any.required': 'A password is required',
             }
         ),
-    photo: Joi
+        country: Joi
         .string()
         .required()
-        .min(8)
-        .uri()
         .messages(
-            {
-                'string.min': 'The photo must be at least 8 characters',
-                'string.empty': 'The photo cannot be empty',
-                'any.required': 'A photo is required',
-                'string.uri': 'A valid URL is necessary'
-            }
-        )
+        {
+
+            'string.empty': 'The country cannot be empty',
+            'any.required': 'A country is required',
+        }),
+        address: Joi
+        .string()
+        .required()
+        .messages(
+        {
+            'string.empty': 'The address cannot be empty',
+            'any.required': 'A address is required',
+        }),
+        mailing_address: Joi
+        .string()
+        .required()
+        .messages(
+        {
+            
+            'string.empty': 'The mailing_address cannot be empty',
+            'any.required': 'A mailing_address is required',
+        })
 })
 
 export default schema
