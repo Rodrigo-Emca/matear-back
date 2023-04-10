@@ -14,7 +14,6 @@ const { update } = updateProduct
 const { destroy } = deleteProduct
 
 router.post('/', passport.authenticate("jwt", { session:false }), validator(schemaProducts), create)
-
 router.put("/:id", passport.authenticate("jwt", { session:false }), validator(schemaUpdate), update)
 router.delete("/:id", passport.authenticate("jwt", { session:false }), destroy)
 
