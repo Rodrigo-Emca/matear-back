@@ -9,6 +9,6 @@ let router = express.Router()
 const {readAll} = readArticle
 const {getOne} = readOne
 router.get('/', readAll)
-router.get('/:id', getOne)
+router.get('/:id', passport.authenticate('jwt', { session: false }), getOne)
 
 export default router
