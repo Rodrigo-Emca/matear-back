@@ -5,9 +5,7 @@ export let products_v1 = [
         description: 'Gourd Mate lined in Leather with Stainless Steel Ferrule.',
         category_id: 'mates',
         price: '14,240.00',
-        stock:8,
-        // author_id: 'alejandro',
-        // company_id: 'Peace',
+        stock: 8,
         article: [
             {
                 title: 'Mate Camionero Uruguayo',
@@ -20,8 +18,7 @@ export let products_v1 = [
         description: 'Imperial Wood Mate with Chiseled Ferrule.',
         category_id: 'mates',
         price: '13,875.00',
-        stock:2,
-        // author_id: 'lucas',
+        stock: 2,
         article: [
             {
                 title: 'Mate Imperial Cincelado',
@@ -34,9 +31,7 @@ export let products_v1 = [
         description: 'Pumpkin Mate lined in Leather with Stainless Steel Ferrule',
         category_id: 'mates',
         price: '11,344.00',
-        stock:2,
-        // author_id: 'lucas',
-        // company_id: 'Peace',
+        stock: 2,
         article: [
             {
                 title: 'Mate Camionero Nacional',
@@ -49,9 +44,7 @@ export let products_v1 = [
         description: 'Ceramic Mats lined in Carved or Smooth Leather with Alpaca Ferrule.',
         category_id: 'mates',
         price: '13,600.00',
-        stock:0,
-        // author_id: 'lucas',
-        // company_id: 'Peace',
+        stock: 0,
         article: [
             {
                 title: 'Mate Ceramica',
@@ -64,9 +57,7 @@ export let products_v1 = [
         description: 'Pumpkin mates lined in leather, with handmade carved nickel silver ferrule.',
         category_id: 'mates',
         price: '11,950.00',
-        stock:6,
-        // author_id: 'lucas',
-        // company_id: 'Peace',
+        stock: 6,
         article: [
             {
                 title: 'Mate Cincelado',
@@ -79,9 +70,7 @@ export let products_v1 = [
         description: 'Mate Trucker with Alpaca Base and Chiseled Ferrule.',
         category_id: 'mates',
         price: '15,690.00',
-        stock:10,
-        // author_id: 'lucas',
-        // company_id: 'Peace',
+        stock: 10,
         article: [
             {
                 title: 'Mate Camionero base Alpaca',
@@ -94,27 +83,23 @@ export let products_v1 = [
         description: 'Alpaca Pico de Loro Silver Straw.',
         category_id: 'strawbulbs',
         price: '5,400.00',
-        stock:5,
-        // author_id: 'lucas',
-        // company_id: 'Peace',
+        stock: 5,
         article: [
             {
-                title: 'Mate Camionero base Alpaca',
+                title: 'Bombilla de Alpaca Pico de Loro',
                 photo: ['https://i.postimg.cc/pLnvKKCc/DSC06679-1-100x100.jpg', 'https://i.postimg.cc/QM1XZcWK/DSC06680-1.jpg', 'https://i.postimg.cc/BvGrDkXt/DSC06683-1-100x100.jpg']
             }
         ]
     }, {
         title: 'Bombilla de acero con resorte',
-        cover_photo: 'https://i.postimg.cc/vHqd60sd/DSC06683-1.jpg',
+        cover_photo: 'https://i.postimg.cc/8kmLV08D/DSC06806-600x600.jpg',
         description: 'Steel straw with spring.',
         category_id: 'strawbulbs',
         price: '1,500.00',
-        stock:0,
-        // author_id: 'lucas',
-        // company_id: 'Peace',
+        stock: 0,
         article: [
             {
-                title: 'Mate Camionero base Alpaca',
+                title: 'Bombilla de acero con resorte',
                 photo: ['https://i.postimg.cc/8kmLV08D/DSC06806-600x600.jpg', 'https://i.postimg.cc/rpRSXyTY/DSC06807.jpg']
             }
         ]
@@ -124,9 +109,7 @@ export let products_v1 = [
         description: 'Uruguayan Alpaca Jumbo Straw.',
         category_id: 'strawbulbs',
         price: '7,734.00',
-        stock:9,
-        // author_id: 'lucas',
-        // company_id: 'Peace',
+        stock: 9,
         article: [
             {
                 title: 'Bombillon Uruguayo',
@@ -140,9 +123,7 @@ export let products_v1 = [
         description: 'Flat Straw with Peruvian Alpaca Charm.',
         category_id: 'strawbulbs',
         price: '2,604.00',
-        stock:1,
-        // author_id: 'lucas',
-        // company_id: 'Peace',
+        stock: 1,
         article: [
             {
                 title: 'Bombilla chata con dije de alpaca',
@@ -156,9 +137,7 @@ export let products_v1 = [
         description: 'Handcrafted Leather Baskets!',
         category_id: 'mate carriers',
         price: '31,124.00',
-        stock:5,
-        // author_id: 'lucas',
-        // company_id: 'Peace',
+        stock: 5,
         article: [
             {
                 title: 'Canasta de cuero negra',
@@ -172,9 +151,7 @@ export let products_v1 = [
         description: 'Square basket',
         category_id: 'mate carriers',
         price: '13,812.00',
-        stock:1,
-        // author_id: 'lucas',
-        // company_id: 'Peace',
+        stock: 1,
         article: [
             {
                 title: 'Canasta cuadrada',
@@ -184,36 +161,32 @@ export let products_v1 = [
         ]
     }, {
         title: 'Mochila matera Gamuza',
-        cover_photo: 'https://i.postimg.cc/YS4tW8YP/Canasta-Cuadrada-3.jpg',
+        cover_photo: 'https://i.postimg.cc/1RqKM8fc/Mochila-Matera-Negro-Verde-1.jpg',
         description: 'Mate Backpack in Suede',
         category_id: 'mate carriers',
         price: '22,890.00',
-        stock:3,
-        // author_id: 'lucas',
-        // company_id: 'Peace',
+        stock: 3,
         article: [
             {
                 title: 'Mochila matera Gamuza',
-                photo: ['https://i.postimg.cc/0yX8jhMm/Canasta-Cuadrada-2.jpg', 'https://i.postimg.cc/W4QT6r71/Canasta-Cuadrada-4-600x600.jpg',
-                    'https://i.postimg.cc/BQgZ9jJm/DSC04602.jpg']
+                photo: ['https://i.postimg.cc/7YrnRqzv/Mochila-Matera-Negro-Verde-2-600x600.jpg', 'https://i.postimg.cc/BQ5B9R5j/Mochila-Matera-Negro-Verde-3.jpg',
+                    'https://i.postimg.cc/zGJSJpp0/Mochila-Matera-Negro-Verde-4-600x600.jpg']
             }
         ]
-    },{
+    }, {
         title: 'Termo Stanley Classic 950 ml con Asa y tapón cebador',
         cover_photo: 'https://i.postimg.cc/NLq1PSCV/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-1.jpg',
         description: 'The Stanley Series offers unrivaled durability and thermal capacity for those who demand the best. It is the result of 100 years of knowledge and excellence in every detail.',
         category_id: 'thermos',
         price: '41,024.00',
         stock: 5,
-        // author_id: 'alejandro',
-        // company_id: 'Peace',
         article: [
             {
                 title: 'Termo Stanley Classic 950 ml con Asa y tapón cebador',
                 photo: ['https://i.postimg.cc/NLq1PSCV/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-1.jpg',
-                'https://i.postimg.cc/XNQqHTmy/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-2.jpg',
-                'https://i.postimg.cc/zX6MqG4Z/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-0.jpg',
-                'https://i.postimg.cc/Z57Kj3Qt/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-3.jpg'],
+                    'https://i.postimg.cc/XNQqHTmy/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-2.jpg',
+                    'https://i.postimg.cc/zX6MqG4Z/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-0.jpg',
+                    'https://i.postimg.cc/Z57Kj3Qt/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-3.jpg'],
             },
         ]
     },
@@ -224,51 +197,44 @@ export let products_v1 = [
         category_id: 'thermos',
         price: '36,542.00',
         stock: 5,
-        // author_id: 'alejandro',
-        // company_id: 'Peace',
         article: [
             {
                 title: 'Termo Stanley Adventure 1 litro Edición Limitada',
                 photo: ['https://i.postimg.cc/FHdKKppW/Termo-Stanley-Adventure-1-litro-Edici-n-Limitada0.jpg',
-                'https://i.postimg.cc/bJsP6N56/Termo-Stanley-Adventure-1-litro-Edici-n-Limitada-1.jpg',
-                'https://i.postimg.cc/c4TDJMCn/Termo-Stanley-Adventure-1-litro-Edici-n-Limitada-2.jpg',
-                'https://i.postimg.cc/tJvVKTRY/Termo-Stanley-Adventure-1-litro-Edici-n-Limitada-4.jpg'],
+                    'https://i.postimg.cc/bJsP6N56/Termo-Stanley-Adventure-1-litro-Edici-n-Limitada-1.jpg',
+                    'https://i.postimg.cc/c4TDJMCn/Termo-Stanley-Adventure-1-litro-Edici-n-Limitada-2.jpg',
+                    'https://i.postimg.cc/tJvVKTRY/Termo-Stanley-Adventure-1-litro-Edici-n-Limitada-4.jpg'],
             },
         ]
     },
     {
         title: 'Termo termolar R-Evolution 1 litro',
-        cover_photo: 'https://i.postimg.cc/NLq1PSCV/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-1.jpg',
+        cover_photo: 'https://i.postimg.cc/Rh6pLd2c/45d15bb3-1b82-41f8-b03b-c6c23cec015d-d6c3bd19a3ec8bf0fa16608213263321-480-0.jpg',
         description: 'Thermos R-Evolution is a brand of modern and elegant thermos that has a model called Revolution with a capacity of 1 liter and made of stainless steel both inside and outside, which guarantees great resistance and durability. This thermos has an insulation system that keeps the contents cold for 6 hours and hot for 6 hours, allowing you to enjoy drinks at the desired temperature anytime, anywhere. In addition, its lid opening system with a primer spout makes it very practical and easy to use.',
         category_id: 'thermos',
         price: '28,227.00',
         stock: 5,
-        // author_id: 'alejandro',
-        // company_id: 'Peace',
         article: [
             {
                 title: 'Termo termolar R-Evolution 1 litro',
-                photo: ['https://i.postimg.cc/NLq1PSCV/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-1.jpg',
-                'https://i.postimg.cc/XNQqHTmy/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-2.jpg',
-                'https://i.postimg.cc/zX6MqG4Z/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-0.jpg',
-                'https://i.postimg.cc/Z57Kj3Qt/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-3.jpg'],
+                photo: ['https://i.postimg.cc/rFWM8Nz0/48eee603-6739-43d3-9d6c-72f32f57c913-4c0e69c9b4a8b6dd0716608213413965-1024-1024.jpg',
+                    'https://i.postimg.cc/DfR7kMf3/a5d5b944-6c85-4015-903b-9de971768e2e-573b164e520fabf69316608213338955-1024-1024.jpg',
+                    'https://i.postimg.cc/Rh6pLd2c/45d15bb3-1b82-41f8-b03b-c6c23cec015d-d6c3bd19a3ec8bf0fa16608213263321-480-0.jpg'],
             },
         ]
     },
     {
         title: 'Termo contigo 1,2 Litros con manija',
-        cover_photo: 'https://i.postimg.cc/NLq1PSCV/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-1.jpg',
+        cover_photo: 'https://i.postimg.cc/zXqrvpdq/Termo-Contigo-12-litros-con-Manija-negro.jpg',
         description: 'The Contigo thermos is a model with a 1200 ml capacity, designed with a BPA-free interior material that guarantees safety when storing drinks. In addition, its exterior is covered in steel, which gives it an elegant appearance and makes it resistant to bumps and scratches. This thermos is capable of keeping the content cold for 60 hours and hot for 35 hours, thanks to its double-walled insulation system. Its lid has the Seal It opening system, which allows easy and safe handling of the thermos for use in any situation. With the Contigo thermos, you will enjoy your drinks at the desired temperature for much longer, even on your outdoor adventures.',
         category_id: 'thermos',
         price: '30,843.00',
         stock: 5,
-        // author_id: 'alejandro',
-        // company_id: 'Peace',
         article: [
             {
                 title: 'Termo contigo 1,2 Litros con manija',
                 photo: ['https://i.postimg.cc/28N5w42t/Termo-Contigo-12-litros-con-Manija-gris.jpg',
-                'https://i.postimg.cc/zXqrvpdq/Termo-Contigo-12-litros-con-Manija-negro.jpg',],
+                    'https://i.postimg.cc/zXqrvpdq/Termo-Contigo-12-litros-con-Manija-negro.jpg',],
             },
         ]
     },
@@ -279,15 +245,13 @@ export let products_v1 = [
         category_id: 'thermos',
         price: '40,019.00',
         stock: 5,
-        // author_id: 'alejandro',
-        // company_id: 'Peace',
         article: [
             {
                 title: 'Termo Stanley Classic 1 litro',
                 photo: ['https://i.postimg.cc/x160hPJT/Termo-Stanley-1-litro-con-Manija-1.jpg',
-                'https://i.postimg.cc/BQs4vz2n/Termo-Stanley-1-litro-con-Manija-Rojo.jpg',
-                'https://i.postimg.cc/y88KmSQq/Termo-Stanley-1-litro-con-Manija-Gris-504x504.jpg',
-                'https://i.postimg.cc/KvZhbMyK/Termo-Stanley-1-litro-con-Manija-Azul.jpg'],
+                    'https://i.postimg.cc/BQs4vz2n/Termo-Stanley-1-litro-con-Manija-Rojo.jpg',
+                    'https://i.postimg.cc/y88KmSQq/Termo-Stanley-1-litro-con-Manija-Gris-504x504.jpg',
+                    'https://i.postimg.cc/KvZhbMyK/Termo-Stanley-1-litro-con-Manija-Azul.jpg'],
             },
         ]
     },
@@ -298,15 +262,13 @@ export let products_v1 = [
         category_id: 'thermos',
         price: '45,520.00',
         stock: 5,
-        // author_id: 'alejandro',
-        // company_id: 'Peace',
         article: [
             {
                 title: 'Termo Stanley Classic Asa Plegable 1.4 Litros',
                 photo: ['https://i.postimg.cc/44FpkjMj/Termo-Stanley-1-4-2.jpg',
-                'https://i.postimg.cc/fRscBm1b/Termo-Stanley-1-4-1-504x504.jpg',
-                'https://i.postimg.cc/c4zq31zT/Termo-Stanley-1-4-3.jpg',
-                'https://i.postimg.cc/rmZjHsxP/Termo-Stanley-1-4-4.jpg'],
+                    'https://i.postimg.cc/fRscBm1b/Termo-Stanley-1-4-1-504x504.jpg',
+                    'https://i.postimg.cc/c4zq31zT/Termo-Stanley-1-4-3.jpg',
+                    'https://i.postimg.cc/rmZjHsxP/Termo-Stanley-1-4-4.jpg'],
             },
         ]
     },
@@ -318,16 +280,14 @@ export let products_v1 = [
         category_id: 'accessories',
         price: '2,784.00',
         stock: 5,
-        // author_id: 'alejandro',
-        // company_id: 'Peace',
         article: [
             {
                 title: 'Despolvillador yerba mate',
                 photo: ['https://i.postimg.cc/fybpPky3/DSC03759.jpg',
-                'https://i.postimg.cc/wv1b5ZGJ/DSC03774.jpg',
-                'https://i.postimg.cc/HLVtF591/DSC03771-504x504.jpg',
-                'https://i.postimg.cc/m2mCRkDL/DSC03768.jpg',
-                'https://i.postimg.cc/s27MBgVZ/DSC03765.jpg'],
+                    'https://i.postimg.cc/wv1b5ZGJ/DSC03774.jpg',
+                    'https://i.postimg.cc/HLVtF591/DSC03771-504x504.jpg',
+                    'https://i.postimg.cc/m2mCRkDL/DSC03768.jpg',
+                    'https://i.postimg.cc/s27MBgVZ/DSC03765.jpg'],
             },
         ]
     },
@@ -338,13 +298,11 @@ export let products_v1 = [
         category_id: 'accessories',
         price: '3,255.00',
         stock: 10,
-        // author_id: 'alejandro',
-        // company_id: 'Peace',
         article: [
             {
                 title: 'Porta Mate y Bombilla',
                 photo: ['https://i.postimg.cc/qRbtHrW5/Porta-Mates-1.jpg',
-                'https://i.postimg.cc/QtwTWsSW/Porta-Mates-2.jpg'],
+                    'https://i.postimg.cc/QtwTWsSW/Porta-Mates-2.jpg'],
             },
         ]
     },
@@ -353,17 +311,15 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/vmR89Tdy/DSC04481.jpg',
         description: 'Half cap worked in nickel silver with an elastic band to attach to the mate and prevent the dried yerba from blowing away. Ideal for the beach, car trips or beautiful but windy landscapes! Diameter 10.5 cm.',
         category_id: 'accessories',
-        price: '45,520.00',
+        price: '4,520.00',
         stock: 5,
-        // author_id: 'alejandro',
-        // company_id: 'Peace',
         article: [
             {
-                title: 'Termo Stanley Classic Asa Plegable 1.4 Litros',
+                title: 'Tapa antiviento – Metapa',
                 photo: ['https://i.postimg.cc/vmR89Tdy/DSC04481.jpg',
-                'https://i.postimg.cc/zDdJ7010/Tapa-Anti-Viento-El-Tero-Matepa-2.jpg',
-                'https://i.postimg.cc/yd1HXSQM/DSC04482.jpg',
-                'https://i.postimg.cc/WztcxcPS/Tapa-Anti-Viento-El-Tero-Matepa-3.jpg'],
+                    'https://i.postimg.cc/zDdJ7010/Tapa-Anti-Viento-El-Tero-Matepa-2.jpg',
+                    'https://i.postimg.cc/yd1HXSQM/DSC04482.jpg',
+                    'https://i.postimg.cc/WztcxcPS/Tapa-Anti-Viento-El-Tero-Matepa-3.jpg'],
             },
         ]
     },
