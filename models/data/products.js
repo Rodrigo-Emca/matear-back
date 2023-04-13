@@ -4,7 +4,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/nLBfyDLP/Mate-Camionero-Uruguayo-Cuatro-Apoyos.jpg',
         description: 'Gourd Mate lined in Leather with Stainless Steel Ferrule.',
         category_id: 'mates',
-        price: '14,240.00',
+        price: '14240',
         stock: 8,
         article: [
             {
@@ -17,7 +17,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/hjK4Mr0r/Imperial-Cincelado-Bronce-1.jpg',
         description: 'Imperial Wood Mate with Chiseled Ferrule.',
         category_id: 'mates',
-        price: '13,875.00',
+        price: '13875',
         stock: 2,
         article: [
             {
@@ -30,7 +30,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/PxbgVnqp/mate-camionero-nacional.jpg',
         description: 'Pumpkin Mate lined in Leather with Stainless Steel Ferrule',
         category_id: 'mates',
-        price: '11,344.00',
+        price: '11344',
         stock: 2,
         article: [
             {
@@ -43,7 +43,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/x839mbmZ/Mate-de-Ceramica-1.jpg',
         description: 'Ceramic Mats lined in Carved or Smooth Leather with Alpaca Ferrule.',
         category_id: 'mates',
-        price: '13,600.00',
+        price: '13600',
         stock: 0,
         article: [
             {
@@ -56,7 +56,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/j5J5D5ZV/Mate-Cincelado-1.jpg',
         description: 'Pumpkin mates lined in leather, with handmade carved nickel silver ferrule.',
         category_id: 'mates',
-        price: '11,950.00',
+        price: '11950',
         stock: 6,
         article: [
             {
@@ -69,7 +69,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/44VyZYYV/Mate-Camionero-Base-Alpaca-1.jpg',
         description: 'Mate Trucker with Alpaca Base and Chiseled Ferrule.',
         category_id: 'mates',
-        price: '15,690.00',
+        price: '15690',
         stock: 10,
         article: [
             {
@@ -82,7 +82,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/vHqd60sd/DSC06683-1.jpg',
         description: 'Alpaca Pico de Loro Silver Straw.',
         category_id: 'strawbulbs',
-        price: '5,400.00',
+        price: '5400',
         stock: 5,
         article: [
             {
@@ -95,7 +95,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/8kmLV08D/DSC06806-600x600.jpg',
         description: 'Steel straw with spring.',
         category_id: 'strawbulbs',
-        price: '1,500.00',
+        price: '1500',
         stock: 0,
         article: [
             {
@@ -108,7 +108,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/QtQ2x3sj/Bombillon-Uruguayo-1.jpg',
         description: 'Uruguayan Alpaca Jumbo Straw.',
         category_id: 'strawbulbs',
-        price: '7,734.00',
+        price: '7734',
         stock: 9,
         article: [
             {
@@ -122,7 +122,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/fRWL1m1R/Bombilla-Chata-con-dije-de-Alpaca-2.jpg',
         description: 'Flat Straw with Peruvian Alpaca Charm.',
         category_id: 'strawbulbs',
-        price: '2,604.00',
+        price: '2604',
         stock: 1,
         article: [
             {
@@ -136,7 +136,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/RV1GLBvr/Canasta-de-Cuero-Negra-1.jpg',
         description: 'Handcrafted Leather Baskets!',
         category_id: 'mate carriers',
-        price: '31,124.00',
+        price: '31124',
         stock: 5,
         article: [
             {
@@ -150,7 +150,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/YS4tW8YP/Canasta-Cuadrada-3.jpg',
         description: 'Square basket',
         category_id: 'mate carriers',
-        price: '13,812.00',
+        price: '13812',
         stock: 1,
         article: [
             {
@@ -164,7 +164,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/1RqKM8fc/Mochila-Matera-Negro-Verde-1.jpg',
         description: 'Mate Backpack in Suede',
         category_id: 'mate carriers',
-        price: '22,890.00',
+        price: '22890',
         stock: 3,
         article: [
             {
@@ -178,7 +178,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/NLq1PSCV/Termo-Stanley-Classic-950-ml-con-Asa-y-tap-n-cebador-1.jpg',
         description: 'The Stanley Series offers unrivaled durability and thermal capacity for those who demand the best. It is the result of 100 years of knowledge and excellence in every detail.',
         category_id: 'thermos',
-        price: '41,024.00',
+        price: '41024',
         stock: 5,
         article: [
             {
@@ -195,7 +195,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/FHdKKppW/Termo-Stanley-Adventure-1-litro-Edici-n-Limitada0.jpg',
         description: 'With less distance between its internal walls that guarantees greater durability. The word that comes to mind is "iconic": sleek design, rugged construction, and an indescribable attitude. Fully leak proof and capable of keeping drinks hot or cold for 24 hours or iced for 120 hours. With the Stanley Thermos you never have to worry about your water getting cold or your drink getting hot. Thanks to its thick steel outer wall you will get a thermal performance that will last you through the years.',
         category_id: 'thermos',
-        price: '36,542.00',
+        price: '36542',
         stock: 5,
         article: [
             {
@@ -212,7 +212,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/Rh6pLd2c/45d15bb3-1b82-41f8-b03b-c6c23cec015d-d6c3bd19a3ec8bf0fa16608213263321-480-0.jpg',
         description: 'Thermos R-Evolution is a brand of modern and elegant thermos that has a model called Revolution with a capacity of 1 liter and made of stainless steel both inside and outside, which guarantees great resistance and durability. This thermos has an insulation system that keeps the contents cold for 6 hours and hot for 6 hours, allowing you to enjoy drinks at the desired temperature anytime, anywhere. In addition, its lid opening system with a primer spout makes it very practical and easy to use.',
         category_id: 'thermos',
-        price: '28,227.00',
+        price: '28227',
         stock: 5,
         article: [
             {
@@ -228,7 +228,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/zXqrvpdq/Termo-Contigo-12-litros-con-Manija-negro.jpg',
         description: 'The Contigo thermos is a model with a 1200 ml capacity, designed with a BPA-free interior material that guarantees safety when storing drinks. In addition, its exterior is covered in steel, which gives it an elegant appearance and makes it resistant to bumps and scratches. This thermos is capable of keeping the content cold for 60 hours and hot for 35 hours, thanks to its double-walled insulation system. Its lid has the Seal It opening system, which allows easy and safe handling of the thermos for use in any situation. With the Contigo thermos, you will enjoy your drinks at the desired temperature for much longer, even on your outdoor adventures.',
         category_id: 'thermos',
-        price: '30,843.00',
+        price: '30843',
         stock: 5,
         article: [
             {
@@ -243,7 +243,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/x160hPJT/Termo-Stanley-1-litro-con-Manija-1.jpg',
         description: 'Stanley Classic is a brand of high quality thermoses and its 1 liter model is the perfect companion to enjoy drinks at the desired temperature throughout the day. This thermos is made of stainless steel on the inside and silicone on the outside, which gives it great durability and resistance. With its insulation system, this thermos keeps the contents cold for 24 hours and hot for 24 hours, which makes it ideal for long trips or to enjoy drinks at any time of the day. In addition, it has an original spout lid opening system that allows easy and precise pouring of the contents.',
         category_id: 'thermos',
-        price: '40,019.00',
+        price: '40019',
         stock: 5,
         article: [
             {
@@ -260,7 +260,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/44FpkjMj/Termo-Stanley-1-4-2.jpg',
         description: 'The Stanley Thermos is an essential tool for those who enjoy hot or cold drinks for long periods of time. With a capacity of 1.4 liters, this thermos is capable of keeping the contents hot for 40 hours and the contents cold for 35 hours, which makes it an ideal option for outdoor activities or long-term trips. Plus, its strong, durable design makes it perfect for any adventure, and its leak-proof lid ensures no unwanted spills.',
         category_id: 'thermos',
-        price: '45,520.00',
+        price: '45520',
         stock: 5,
         article: [
             {
@@ -278,7 +278,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/fybpPky3/DSC03759.jpg',
         description: 'It consists of a yerba container that is loaded and shaken manually and the filter that it has inside, separates the yerba dust from the leaf. You can regulate the amount of dust to remove according to the taste of each one.You can also use it as a yerbera!',
         category_id: 'accessories',
-        price: '2,784.00',
+        price: '2784',
         stock: 5,
         article: [
             {
@@ -296,7 +296,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/qRbtHrW5/Porta-Mates-1.jpg',
         description: 'The Porta Mate and Bombilla is an essential products in the matero kit when traveling, having some mates in the park, on the beach or at the club. It allows us to store and transport the mate without first cleaning it thoroughly since it is made with waterproof nautical canvas on its closures and interior. ♻️ It is an environmentally friendly products because it allows us to stop using plastic bags to transport the mate!',
         category_id: 'accessories',
-        price: '3,255.00',
+        price: '3255',
         stock: 10,
         article: [
             {
@@ -311,7 +311,7 @@ export let products_v1 = [
         cover_photo: 'https://i.postimg.cc/vmR89Tdy/DSC04481.jpg',
         description: 'Half cap worked in nickel silver with an elastic band to attach to the mate and prevent the dried yerba from blowing away. Ideal for the beach, car trips or beautiful but windy landscapes! Diameter 10.5 cm.',
         category_id: 'accessories',
-        price: '4,520.00',
+        price: '4520',
         stock: 5,
         article: [
             {
