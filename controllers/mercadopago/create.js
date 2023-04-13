@@ -8,19 +8,20 @@ const controller = {
 
     // Verifica si data es un objeto o un array
     const items = Array.isArray(data) ? data : [data];
-
+    
+    // console.log(data.items)
     const preference = {
-      items: items.map((item) => ({
-        id: item._id,
-        title: item.title,
+      items: data.items.map((item) => ({
+        id: item.product_id._id,
+        title: item.product_id.title,
         currency_id: "ARS",
-        picture_url: item.cover_photo,
-        unit_price: parseFloat(item.price),
-        description: item.description,
+        picture_url: item.product_id.cover_photo,
+        unit_price: parseFloat(item.product_id.price),
+        description: item.product_id.description,
         quantity: 1,
       })),
       back_urls: {
-        success: "http://localhost:3000",
+        success: "http://localhost:3000/shop",
         failure: "",
         pending: "",
       },
