@@ -21,7 +21,7 @@ const controller = {
         quantity: 1,
       })),
       back_urls: {
-        success: "http://localhost:3000/shop",
+        success: "http://localhost:3000/thanks",
         failure: "",
         pending: "",
       },
