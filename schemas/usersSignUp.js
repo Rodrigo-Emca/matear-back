@@ -40,7 +40,6 @@ const schema = Joi.object({
         ),
         country: Joi
         .string()
-        .required()
         .messages(
         {
 
@@ -49,7 +48,6 @@ const schema = Joi.object({
         }),
         address: Joi
         .string()
-        .required()
         .messages(
         {
             'string.empty': 'The address cannot be empty',
@@ -57,7 +55,6 @@ const schema = Joi.object({
         }),
         mailing_address: Joi
         .string()
-        .required()
         .messages(
         {
             
